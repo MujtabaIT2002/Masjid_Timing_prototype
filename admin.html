@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Panel</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="admin.html">Admin Panel</a>
+</div>
+
+    <div class="container">
+        <h1>Admin Panel</h1>
+        <div class="date">
+            <h2>Date</h2>
+            <input type="date" id="current-date-input">
+        </div>
+        <div class="jummah-timings">
+            <h2>Jummah Timings</h2>
+            <label for="jummah-timing-1">Jummah 1 Timing:</label>
+            <input type="time" id="jummah-timing-1">
+            <label for="jummah-timing-2">Jummah 2 Timing:</label>
+            <input type="time" id="jummah-timing-2">
+            <label for="jummah-timing-3">Jummah 3 Timing:</label>
+            <input type="time" id="jummah-timing-3">
+        </div>
+        <div class="prayer-timings">
+            <h2>Prayer Timings</h2>
+            <label for="fajr-timing">Fajr Timing:</label>
+            <input type="time" id="fajr-timing">
+            <label for="fajr-aqamah">Fajr Aqamah:</label>
+            <input type="time" id="fajr-aqamah">
+            <label for="dhuhr-timing">Dhuhr Timing:</label>
+            <input type="time" id="dhuhr-timing">
+            <label for="dhuhr-aqamah">Dhuhr Aqamah:</label>
+            <input type="time" id="dhuhr-aqamah">
+            <label for="asr-timing">Asr Timing:</label>
+            <input type="time" id="asr-timing">
+            <label for="asr-aqamah">Asr Aqamah:</label>
+            <input type="time" id="asr-aqamah">
+            <label for="maghrib-timing">Maghrib Timing:</label>
+            <input type="time" id="maghrib-timing">
+            <label for="maghrib-aqamah">Maghrib Aqamah:</label>
+            <input type="time" id="maghrib-aqamah">
+            <label for="isha-timing">Isha Timing:</label>
+            <input type="time" id="isha-timing">
+            <label for="isha-aqamah">Isha Aqamah:</label>
+            <input type="time" id="isha-aqamah">
+        </div>
+        <div class="sunrise-sunset">
+            <h2>Sunrise and Sunset</h2>
+            <label for="sunrise-timing">Sunrise Timing:</label>
+            <input type="time" id="sunrise-timing">
+            <label for="sunset-timing">Sunset Timing:</label>
+            <input type="time" id="sunset-timing">
+        </div>
+        <button onclick="updateData()">Update</button>
+    </div>
+    <script src="functionality.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prayer Timings</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="admin.html">Admin Panel</a>
+</div>
+
+    <div class="container">
+        <h1>Prayer Timings</h1>
+        <div class="date">
+            <h2>Date</h2>
+            <p id="current-date"></p>
+        </div>
+        <div class="jummah-timings">
+            <h2>Jummah Timings</h2>
+            <table>
+                <tr>
+                    <th>Timing</th>
+                    <th>Prayer</th>
+                </tr>
+                <tr>
+                    <td id="jummah-timing-1"></td>
+                    <td>Jummah 1</td>
+                </tr>
+                <tr>
+                    <td id="jummah-timing-2"></td>
+                    <td>Jummah 2</td>
+                </tr>
+                <tr>
+                    <td id="jummah-timing-3"></td>
+                    <td>Jummah 3</td>
+                </tr>
+            </table>
+        </div>
+        <div class="prayer-timings">
+            <h2>Prayer Timings</h2>
+            <table>
+                <tr>
+                    <th>Prayer</th>
+                    <th>Timing</th>
+                    <th>Aqamah</th>
+                </tr>
+                <tr>
+                    <td>Fajr</td>
+                    <td id="fajr-timing"></td>
+                    <td id="fajr-aqamah"></td>
+                </tr>
+                <tr>
+                    <td>Dhuhr</td>
+                    <td id="dhuhr-timing"></td>
+                    <td id="dhuhr-aqamah"></td>
+                </tr>
+                <tr>
+                    <td>Asr</td>
+                    <td id="asr-timing"></td>
+                    <td id="asr-aqamah"></td>
+                </tr>
+                <tr>
+                    <td>Maghrib</td>
+                    <td id="maghrib-timing"></td>
+                    <td id="maghrib-aqamah"></td>
+                </tr>
+                <tr>
+                    <td>Isha</td>
+                    <td id="isha-timing"></td>
+                    <td id="isha-aqamah"></td>
+                </tr>
+                <tr>
+                    <th>Sunrise</th>
+                    <td id="sunrise-timing"></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>Sunset</th>
+                    <td id="sunset-timing"></td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="functionality.js"></script>
+</body>
+</html>
